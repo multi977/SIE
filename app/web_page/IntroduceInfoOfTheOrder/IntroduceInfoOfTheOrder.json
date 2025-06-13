@@ -1,0 +1,32 @@
+{
+  "id" : "IntroduceInfoOfTheOrder",
+  "name" : "IntroduceInfoOfTheOrder",
+  "type" : "form",
+  "uuid" : "d25ddb94-64fe-4ed4-ade1-ebfd8745c600",
+  "modelVersion" : "2.6",
+  "lastUpdate" : 1749599611081,
+  "description" : "Page generated with Bonita UI designer",
+  "rows" : [
+    [ ]
+  ],
+  "variables" : { },
+  "assets" : [
+    {
+      "id" : "02e2a50a-02aa-4d73-a73e-f62a2b9e9673",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "c840fb69-677c-44c4-961e-d459854a0507",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "webResources" : [ ],
+  "hasValidationError" : false
+}

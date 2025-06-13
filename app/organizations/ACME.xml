@@ -587,10 +587,16 @@
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
+    <user userName="AutomatedUser">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
   </users>
   <roles>
-    <role name="member">
-      <displayName>Member</displayName>
+    <role name="cliente">
+      <displayName>Cliente</displayName>
       <description></description>
     </role>
     <role name="servicos_admin">
@@ -598,6 +604,12 @@
     </role>
     <role name="direcao">
       <displayName>Dire&#xe7;&#xe3;o</displayName>
+    </role>
+    <role name="sistema">
+      <displayName>Sistema</displayName>
+    </role>
+    <role name="departamento_tecnico">
+      <displayName>Coordena&#xe7;&#xe3;o do Departamento T&#xe9;cnico</displayName>
     </role>
   </roles>
   <groups>
@@ -657,137 +669,137 @@
   <memberships>
     <membership>
       <userName>william.jobs</userName>
-      <roleName>member</roleName>
+      <roleName>cliente</roleName>
       <groupName>acme</groupName>
     </membership>
     <membership>
       <userName>april.sanchez</userName>
-      <roleName>member</roleName>
+      <roleName>cliente</roleName>
       <groupName>hr</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
     <membership>
       <userName>helen.kelly</userName>
-      <roleName>member</roleName>
+      <roleName>cliente</roleName>
       <groupName>hr</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
     <membership>
       <userName>walter.bates</userName>
-      <roleName>member</roleName>
+      <roleName>cliente</roleName>
       <groupName>hr</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
     <membership>
       <userName>zachary.williamson</userName>
-      <roleName>member</roleName>
+      <roleName>cliente</roleName>
       <groupName>finance</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
     <membership>
       <userName>patrick.gardenier</userName>
-      <roleName>member</roleName>
+      <roleName>cliente</roleName>
       <groupName>finance</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
     <membership>
       <userName>virginie.jomphe</userName>
-      <roleName>member</roleName>
+      <roleName>cliente</roleName>
       <groupName>finance</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
     <membership>
       <userName>thorsten.hartmann</userName>
-      <roleName>member</roleName>
+      <roleName>cliente</roleName>
       <groupName>finance</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
     <membership>
       <userName>jan.fisher</userName>
-      <roleName>member</roleName>
+      <roleName>cliente</roleName>
       <groupName>it</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
     <membership>
       <userName>isabel.bleasdale</userName>
-      <roleName>member</roleName>
+      <roleName>cliente</roleName>
       <groupName>marketing</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
     <membership>
       <userName>favio.riviera</userName>
-      <roleName>member</roleName>
+      <roleName>cliente</roleName>
       <groupName>marketing</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
     <membership>
       <userName>michael.morrison</userName>
-      <roleName>member</roleName>
+      <roleName>cliente</roleName>
       <groupName>production</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
     <membership>
       <userName>marc.marseau</userName>
-      <roleName>member</roleName>
+      <roleName>cliente</roleName>
       <groupName>rd</groupName>
       <groupParentPath>/acme/production</groupParentPath>
     </membership>
     <membership>
       <userName>joseph.hovell</userName>
-      <roleName>member</roleName>
+      <roleName>cliente</roleName>
       <groupName>rd</groupName>
       <groupParentPath>/acme/production</groupParentPath>
     </membership>
     <membership>
       <userName>mauro.zetticci</userName>
-      <roleName>member</roleName>
+      <roleName>cliente</roleName>
       <groupName>services</groupName>
       <groupParentPath>/acme/production</groupParentPath>
     </membership>
     <membership>
       <userName>thomas.wallis</userName>
-      <roleName>member</roleName>
+      <roleName>cliente</roleName>
       <groupName>services</groupName>
       <groupParentPath>/acme/production</groupParentPath>
     </membership>
     <membership>
       <userName>daniela.angelo</userName>
-      <roleName>member</roleName>
+      <roleName>cliente</roleName>
       <groupName>europe</groupName>
       <groupParentPath>/acme/sales</groupParentPath>
     </membership>
     <membership>
       <userName>misa.kumagai</userName>
-      <roleName>member</roleName>
+      <roleName>cliente</roleName>
       <groupName>asia</groupName>
       <groupParentPath>/acme/sales</groupParentPath>
     </membership>
     <membership>
       <userName>norio.yamazaki</userName>
-      <roleName>member</roleName>
+      <roleName>cliente</roleName>
       <groupName>asia</groupName>
       <groupParentPath>/acme/sales</groupParentPath>
     </membership>
     <membership>
       <userName>giovanna.almeida</userName>
-      <roleName>member</roleName>
+      <roleName>cliente</roleName>
       <groupName>latin_america</groupName>
       <groupParentPath>/acme/sales</groupParentPath>
     </membership>
     <membership>
       <userName>anthony.nichols</userName>
-      <roleName>member</roleName>
+      <roleName>cliente</roleName>
       <groupName>north_america</groupName>
       <groupParentPath>/acme/sales</groupParentPath>
     </membership>
     <membership>
       <userName>servicos_admin</userName>
-      <roleName>member</roleName>
+      <roleName>cliente</roleName>
       <groupName>acme</groupName>
     </membership>
     <membership>
       <userName>resp_admin</userName>
-      <roleName>member</roleName>
+      <roleName>cliente</roleName>
       <groupName>acme</groupName>
     </membership>
     <membership>
@@ -797,7 +809,7 @@
     </membership>
     <membership>
       <userName>User1</userName>
-      <roleName>member</roleName>
+      <roleName>cliente</roleName>
       <groupName>acme</groupName>
     </membership>
     <membership>
@@ -807,7 +819,7 @@
     </membership>
     <membership>
       <userName>mariop</userName>
-      <roleName>member</roleName>
+      <roleName>cliente</roleName>
       <groupName>acme</groupName>
     </membership>
     <membership>
@@ -818,6 +830,11 @@
     <membership>
       <userName>walter.bates</userName>
       <roleName>servicos_admin</roleName>
+      <groupName>acme</groupName>
+    </membership>
+    <membership>
+      <userName>AutomatedUser</userName>
+      <roleName>cliente</roleName>
       <groupName>acme</groupName>
     </membership>
   </memberships>
